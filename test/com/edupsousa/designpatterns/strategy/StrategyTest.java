@@ -2,10 +2,20 @@ package com.edupsousa.designpatterns.strategy;
 
 import static org.junit.Assert.*;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class StrategyTest {
 
+public class StrategyTest {
+	ClasseComStrategy objeto;
+	
+	
+	@
+	public void instanciarClasse{
+		objeto = new ClasseComStrategy;
+		
+	}
+	
 	@Test
 	public void testarPadraoStrategy() {
 		ClasseComStrategy objeto = new ClasseComStrategy();
